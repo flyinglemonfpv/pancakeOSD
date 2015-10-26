@@ -29,7 +29,8 @@
 
 // Current-sensor
 #define offset_ 1
-#define current_cal 0.28
+#define current_cal 0.86		//0.28 for 22k resistor
+
 // These values should more or less be correct. Feel free to make a calibration (a few measurements and a linear approksimation) if you feel like it. 
 // 25 A sensor = 0.24
 // 50 A sensor = 0.49

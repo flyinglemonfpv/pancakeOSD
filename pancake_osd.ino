@@ -1,20 +1,3 @@
-
-// Written by Dennis Frie - 2011
-// Contact: Dennis.frie@gmail.com
-
-// Discussion:
-// www.rcgroups.com/forums/showthread.php?t=1473207
-
-// Support DIY hardware and SimpleOSD Open
-
-// Notes on DIY hardware pins:;
-// pin 6 = PD6 / AIN0 (Reference voltage)
-// Pin 7 = PD7 / AIN1 (Video)
-// Pin 11 = MOSI (SPI) used for pixel-generation. 
-// Pin 8 = Dimming (Optional)
-
-// GPS should be configured to NMEA with GPGGA and GPRMC strings.
-
 #include "config.h"
 #include "output.h"
 #include "gps.h"
